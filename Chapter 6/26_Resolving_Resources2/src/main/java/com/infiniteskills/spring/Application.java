@@ -10,7 +10,7 @@ public class Application {
 		// ApplicationContext context = new
 		// ClassPathXmlApplicationContext("classpath:config/application-context.xml");
 		ApplicationContext context = new FileSystemXmlApplicationContext(
-				"C:\\IdeaProjects\\Learning_Spring_Programming\\Chapter 6\\26_Resolving_Resources2\\src\\main\\resources\\config\\application-context.xml");
+				"E:\\IdeaProjects\\Learning_Spring_Programming\\Chapter 6\\26_Resolving_Resources2\\src\\main\\resources\\config\\application-context.xml");
 		MyResourceReader reader = context.getBean("myResourceReader",
 				MyResourceReader.class);
 		reader.print();

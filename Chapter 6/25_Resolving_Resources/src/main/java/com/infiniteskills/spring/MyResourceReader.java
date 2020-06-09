@@ -13,7 +13,7 @@ import org.springframework.stereotype.Component;
 public class MyResourceReader {
 
 	@Autowired
-	@Value("file:C:\\IdeaProjects\\Learning_Spring_Programming\\Chapter 6\\25_Resolving_Resources\\src\\main\\resources\\test.txt")
+	@Value("file:E:\\IdeaProjects\\Learning_Spring_Programming\\Chapter 6\\25_Resolving_Resources\\src\\main\\resources\\test.txt")
 	private Resource resource;
 	
 	public void print() {
